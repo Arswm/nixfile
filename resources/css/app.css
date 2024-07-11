@@ -1,0 +1,21 @@
+/*font awsome setting */
+
+@import '@fortawesome/fontawesome-free/css/fontawesome.css';
+@import '@fortawesome/fontawesome-free/css/regular.css';
+@import '@fortawesome/fontawesome-free/css/solid.css';
+@import '@fortawesome/fontawesome-free/css/brands.css';
+
+/*font awsome setting end*/
+
+/*base font size */
+html {
+    font-size: 14px;  /* Adjust the value as needed */
+}
+
+/*tailwind config */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*tailwind config end */
