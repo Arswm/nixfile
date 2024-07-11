@@ -41,9 +41,9 @@
                     </div>
 
                     <div class="w-max mx-auto text-left mb-12">
-                        <p class="lg:text-[200px] lg:text-start text-center text-5xl font-black text-white leading-tight mx-auto">
+                        <p class="text-3xl lg:text-[200px] lg:text-start text-center font-black text-white leading-tight mx-auto">
                        <span
-                           class=" bg-gradient-to-br from-primary-color to-amber-100 text-transparent bg-clip-text">
+                           class="bg-gradient-to-br from-primary-color to-amber-100 text-transparent bg-clip-text">
                                Nix
                            </span>
                             File
@@ -60,7 +60,7 @@
 
                     <div class="w-[90%] mx-auto bg-white/70 rounded-3xl shadow-md backdrop-blur-20 p-8 mb-12">
                         <p class="text-center mb-8">ads will come here</p>
-                        <div class="grid lggrid-cols-4 gap-8">
+                        <div class="grid lg:grid-cols-4 gap-8">
                             <div>
                                 <img class="w-full object-cover object-center block" src="{{asset('./images/ads.png')}}"
                                      alt="">

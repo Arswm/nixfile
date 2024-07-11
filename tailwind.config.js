@@ -1,20 +1,25 @@
+import defaultTheme from 'tailwindcss/defaultTheme';
+import forms from '@tailwindcss/forms';
+
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
-        "./resources/**/*.blade.php",
-        "./resources/**/*.js",
-        "./resources/**/*.vue",
+        './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
+        './storage/framework/views/*.php',
+        './resources/views/**/*.blade.php',
     ],
+
     theme: {
         extend: {
-            classes: {
-                'btn-primary': 'px-10 py-2 rounded-xl bg-primary-color text-white', // it doesn't working sadly
+            fontFamily: {
+                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
             colors: {
-                'primary-color': '#EB4334',
-                'secondary-color': '#FF9900',
-            },
+                'primary-color' : '#EB4334' ,
+                'secondary-color' : '#FF9900' ,
+            }
         },
     },
-    plugins: [],
-}
+
+    plugins: [forms],
+};
