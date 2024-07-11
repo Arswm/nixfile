@@ -8,5 +8,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    direction: rtl;
+}
 
-
+body{
+    direction: rtl;
+    font-size: 14px;
+}
