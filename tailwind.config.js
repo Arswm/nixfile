@@ -20,7 +20,7 @@ export default {
             colors:{
                 'primary-color' : '#EB4334' ,
                 'secondary-color' : '#FF9900' ,
-            }
+            },
         },
     },
 
