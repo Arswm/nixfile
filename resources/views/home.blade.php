@@ -1,5 +1,6 @@
 @extends('layouts.main')
-
+@section('title')
+    {{ __('Home') }} @endsection
 @section('content')
 
     <div class="w-full bg-no-repeat bg-auto relative bg-[#290F0C]"
